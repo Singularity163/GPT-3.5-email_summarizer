@@ -1,6 +1,6 @@
 # 基于GPT-3.5的邮件摘要生成器 (GPT-3.5-email_summarizer)
 
-gpt-email-summarizer是一个Python项目，旨在帮助用户从其收到的邮件中提取关键信息。该项目利用了GPT-3.5-turbo (OpenAI) API，以及自定义的排序和筛选规则来生成邮件摘要。
+GPT-3.5-email_summarizer会对指定数量的邮件进行读取并分析，使用GPT-3.5分析邮件并返回总结邮件，使用Python实现。该项目利用了GPT-3.5-turbo (OpenAI) API，以及自定义的排序和筛选规则来生成邮件摘要。
 
 ## 功能
 
@@ -13,7 +13,7 @@ gpt-email-summarizer是一个Python项目，旨在帮助用户从其收到的邮
 
 ## 安装与配置
 
-确保您已安装以下依赖(一键安装依赖脚本会晚点上传)：
+确保您已安装以下依赖：
 
 - Python 3.x
 - [openai](https://github.com/openai/openai) (安装：`pip install openai`)
