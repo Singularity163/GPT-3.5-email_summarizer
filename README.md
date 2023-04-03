@@ -16,14 +16,16 @@ GPT-3.5-email_summarizer会对指定数量的邮件进行读取并分析，使�
 确保您已安装以下依赖：
 
 - Python 3.x
-- [openai](https://github.com/openai/openai) (安装：`pip install openai`)
-- [requests](https://docs.python-requests.org/en/master/) (安装：`pip install requests`)
+- openai
+- requests
 - configparser
 - re
 - html2text
 - imapclient
 - smtplib
 - bs4
+
+或者运行文件中的脚本一键安装。
 
 在开始使用之前，请确保已获取OpenAI API的访问密钥。请修改文件中的config.ini，填入自己的用户名和密码，以及openAI key。
 默认发送和接收邮箱为Outlook。可以通过修改imap和smtp来切换成不同的邮箱。请确保在邮箱设置里允许使用imap和smtp。
