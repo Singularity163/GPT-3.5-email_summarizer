@@ -1,0 +1,8 @@
+openai
+requests
+configparser
+re
+html2text
+imapclient
+smtplib
+bs4
